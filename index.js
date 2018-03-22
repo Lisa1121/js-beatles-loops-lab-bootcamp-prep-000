@@ -22,5 +22,6 @@ function iLoveTheBeatles (facts) {
 }
 function iLoveTheBeatles(){
   for (let i=0; i<8;i++)
-  array.push()
+  array.push("I love the Beatles")
+  
 }
