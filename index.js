@@ -20,8 +20,12 @@ function iLoveTheBeatles (facts) {
   }
   return newFacts
 }
-function iLoveTheBeatles(){
-  for (let i=0; i<8;i++)
-  array.push("I love the Beatles")
-  
+function iLoveTheBeatles(num){
+  var array = []
+  do {
+  (array.push("I love the Beatles"))
+  num++
+  }
+  while(num<15);
+  return array
 }
